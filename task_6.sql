@@ -1,6 +1,4 @@
-USE alx_book_store;
-
-INSERT IGNORE INTO
+INSERT INTO
     customers (
         customer_id,
         customer_name,
@@ -15,13 +13,13 @@ VALUES (
     ),
     (
         3,
-        'Obed Ehoneah',
-        'eobed@sandtech.com',
+        'Ezinma Nwosu',
+        'enwosu@sandtech.com',
         '125 Happiness Ave.'
     ),
     (
         4,
-        'Nehemial Kamolu',
-        'nkamolu@sandtech.com',
+        'Karim Ahmad',
+        'kahmad@sandtech.com',
         '126 Happiness Ave.'
     );
