@@ -1,5 +1,5 @@
-INSERT INTO
-    customer (
+REPLACE INTO
+    customers (
         customer_id,
         customer_name,
         email,
